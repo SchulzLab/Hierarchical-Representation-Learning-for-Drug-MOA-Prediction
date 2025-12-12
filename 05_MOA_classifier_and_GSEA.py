@@ -13,7 +13,7 @@ For each fold and each MOA in MOA_LIST:
   8) Make heatmaps and gene plots from saved results
 
 Example:
-  python scripts/ig_gene_importance_gsea.py \
+  python 05_MOA_classifier_and_GSEA.py \
     --folds 2 \
     --moas "Topo-i" "HSP-i" "CDK-i" "mTOR-i" "HDAC-i" "PI3K-i" "EGFR-i" "JAK-i" \
     --train-template splits/train_TAS_high_fold{fold}.h5ad \

@@ -104,6 +104,7 @@ python 03_train_hirarch_MOA_model.py
 
 A separate model is trained for each fold. Trained models are saved as:
 models/
+
 ├── hierarcface_fold1_tas_high.pth
 
 ├── hierarcface_fold2_tas_high.pth

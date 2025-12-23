@@ -123,6 +123,39 @@ python 04_test_hirarch_MOA_model.py \
 The per-MoA results are optionally saved as: results/per_moa_accuracy.csv
 
 
+## Dependencies
+
+This project is implemented in Python and requires the following packages.
+
+### Python Version
+- Python ≥ 3.8
+
+### Required Python Packages
+
+- `numpy`
+- `pandas`
+- `scipy`
+- `scikit-learn`
+- `torch`
+- `pytorch-metric-learning`
+- `scanpy`
+- `anndata`
+- `cmapPy`
+- `joblib`
+- `matplotlib`
+- `plotly`
+- `openpyxl` (required for reading `.xlsx` MoA annotation files)
+
+### Installation
+
+We recommend using a virtual environment. Install all dependencies with:
+
+```bash
+pip install numpy pandas scipy scikit-learn torch pytorch-metric-learning \
+
+```markdown
+All experiments were conducted using fixed random seeds and standard PyTorch training procedures.
+
 
 
 

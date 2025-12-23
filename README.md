@@ -14,7 +14,7 @@ This work introduces a **hierarchical supervised contrastive learning framework*
 - **MoA-level separation** (mechanistic organization)
 - **Compound-level substructure** (drug-specific effects and dose trajectories)
 
-The model is trained on **LINCS L1000 transcriptomic perturbation data** and generalizes across unseen drugs, unseen cell types, and even CRISPR knockdown perturbations.
+The model is trained on **LINCS L1000 level 5 transcriptomic perturbation data** and generalizes across unseen drugs, unseen cell types, and even CRISPR knockdown perturbations.
 
 ## Key Contributions
 

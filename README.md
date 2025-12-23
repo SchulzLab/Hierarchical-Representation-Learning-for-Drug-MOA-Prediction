@@ -30,3 +30,13 @@ The model is trained on **LINCS L1000 level 5 transcriptomic perturbation data**
 
 ---
 
+## Data
+
+This project uses transcriptomic perturbation profiles from the **LINCS L1000 project**.
+
+The Level-5 consensus gene-expression signatures used in this work can be downloaded directly from the LINCS CLUE data repository:
+
+```bash
+wget https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/level5/level5_beta_trt_cp_n720216x12328.gctx
+
+

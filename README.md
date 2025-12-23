@@ -1,7 +1,7 @@
 # Hierarchical-Representation-Learning-for-Drug-MOA-Prediction-
 Code for a neural network based approach to learn a hierarchical latent space from gene expression data for the prediction of drug mechanism-of-action
 
-![Hierarchical MoA prediction framework](figures/Figure_overview.png)
+![Hierarchical MoA prediction framework](figures/Figure_Overview.png)
 
 
 ## Overview

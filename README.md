@@ -49,6 +49,9 @@ Download the Level-5 consensus signatures (`trt_cp`) from the CLUE data reposito
 
 ```bash
 wget https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/level5/level5_beta_trt_cp_n720216x12328.gctx
+wget https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/siginfo_beta.txt
+wget https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/geneinfo_beta.txt
+wget https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/compoundinfo_beta.txt
 ```
 
 Move the file to the project data directory:

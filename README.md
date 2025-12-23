@@ -86,6 +86,7 @@ python 02_tas_high_splits.py \
 ```
 The output consists of train/test AnnData files:
 splits/
+
 ├── train_TAS_high_fold4.h5ad
 
 ├── test_TAS_high_fold4.h5ad
@@ -93,6 +94,7 @@ splits/
 ├── train_TAS_high_fold5.h5ad
 
 ├── test_TAS_high_fold5.h5ad
+
 ...
 
 ### Step 3: Model Training

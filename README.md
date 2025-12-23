@@ -34,7 +34,7 @@ The model is trained on **LINCS L1000 level 5 transcriptomic perturbation data**
 
 This section describes the **exact workflow** to reproduce the data preprocessing, training, and evaluation used in the paper.
 
-The pipeline consists of four main steps:
+The pipeline consists of the following steps:
 
 1. Download LINCS L1000 Level-5 data  
 2. Preprocess data into an AnnData file  
@@ -57,9 +57,6 @@ mkdir -p data
 mv level5_beta_trt_cp_n720216x12328.gctx data/
 ```
 
-
-
-The full pipeline consists of four steps: **data preprocessing**, **split generation**, **model training**, and **evaluation**.
 
 ---
 
@@ -85,8 +82,11 @@ python 02_tas_high_splits.py \
 The output consists of train/test AnnData files:
 splits/
 ├── train_TAS_high_fold4.h5ad
+
 ├── test_TAS_high_fold4.h5ad
+
 ├── train_TAS_high_fold5.h5ad
+
 ├── test_TAS_high_fold5.h5ad
 ...
 
@@ -99,6 +99,7 @@ python 03_train_hirarch_MOA_model.py
 A separate model is trained for each fold. Trained models are saved as:
 models/
 ├── hierarcface_fold1_tas_high.pth
+
 ├── hierarcface_fold2_tas_high.pth
 ...
 

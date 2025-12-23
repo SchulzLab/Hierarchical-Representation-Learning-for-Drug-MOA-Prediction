@@ -58,6 +58,8 @@ Move the file to the project data directory:
 ```bash
 mkdir -p data
 mv level5_beta_trt_cp_n720216x12328.gctx data/
+mv siginfo_beta.txt geneinfo_beta.txt compoundinfo_beta.txt data/
+
 ```
 
 

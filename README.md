@@ -151,10 +151,11 @@ We recommend using a virtual environment. Install all dependencies with:
 
 ```bash
 pip install numpy pandas scipy scikit-learn torch pytorch-metric-learning \
+```
 
 ```markdown
 All experiments were conducted using fixed random seeds and standard PyTorch training procedures.
-
+```
 
 
 

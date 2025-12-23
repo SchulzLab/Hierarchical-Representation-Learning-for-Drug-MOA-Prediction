@@ -116,7 +116,6 @@ Evaluate MoA prediction using k-nearest neighbors in the learned latent space:
 ```bash
 python 04_test_hirarch_MOA_model.py \
   --folds 4 5 6 7 \
-  --k 1 \
   --out results/per_moa_accuracy.csv
 ```
 
